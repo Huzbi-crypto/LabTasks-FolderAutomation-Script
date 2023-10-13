@@ -1,14 +1,8 @@
 # Introduction
 
-This is a script that creates a structured (for me, that is ^_~) order of files and folders of lab tasks for our DSA course. 
+This repo contains scripts that I've created for my university courses. Currently, they contain only creation of files, but more scripts will be addd as per the need. 
 
-## How it works
-
-1. It first asks the users to enter their lab no. to create a folder accordingly.
-2. Then it asks the number of C++ files to create.
-3. It then asks the user to enter their student ID so that it gets attached to file names. We need this as a prove that this was done by us.
-
-It's mostly made for my own needs since I'm learning C++ right now and it's a pain to strucuture my lab tasks folder everytime.
+It's mostly made for my own needs since I'm learning C++ and COAL right now and it's a pain to strucuture my lab tasks's folders everytime.
 
 ## Instructions
 
