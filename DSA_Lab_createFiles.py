@@ -24,3 +24,5 @@ for i in range(num_files):
     print(f"{file_name} created")
 
 print("All files created")
+
+input("Press a key to exit...")
