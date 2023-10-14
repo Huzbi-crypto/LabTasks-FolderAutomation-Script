@@ -1,11 +1,14 @@
 import os
 import shutil
 
+# create the lab structure
 lab_number = input("Enter your lab number: ")
+result_folder = "Result"
 
 lab_folder_name = f"Lab-{lab_number.zfill(2)}"
+result_folder_name = os.path.join(lab_folder_name, result_folder)
 
-os.makedirs(lab_folder_name, exist_ok=True)
+os.makedirs(result_folder_name, exist_ok=True)
 
 copy_lab_setup = "F:\Huzbi's Folder\FAST NU\Fall 2023\Courses\COAL\Lab\COAL-BasicSetup"
 
