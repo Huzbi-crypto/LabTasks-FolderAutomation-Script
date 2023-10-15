@@ -10,8 +10,7 @@ result_folder_name = os.path.join(lab_folder_name, result_folder)
 
 os.makedirs(result_folder_name, exist_ok=True)
 
-copy_lab_setup = "F:\Huzbi's Folder\FAST NU\Fall 2023\Courses\COAL\Lab\COAL-BasicSetup"
-
+copy_lab_setup = "path/to/your/folder/for/basicsetup"
 shutil.copytree(copy_lab_setup, os.path.join(lab_folder_name, os.path.basename(copy_lab_setup)), dirs_exist_ok=True)
 
 print(f"Directory {lab_folder_name} created and setup from {copy_lab_setup} also done!")
