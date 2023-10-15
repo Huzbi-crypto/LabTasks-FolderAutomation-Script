@@ -15,7 +15,7 @@ print("Directory ", dir_name, "/", sub_dir_name, " Created ")
 num_files = int(input("Enter the number of .cpp files to create: "))
 
 # Ask user their student ID
-std_id = input("Enter your student ID in this format: ")
+std_id = input("Enter your student ID: ")
 
 # Create .cpp files
 for i in range(num_files):
